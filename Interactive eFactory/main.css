@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: Garde;
+    src: url("ITC\ Avant\ Garde\ Gothic\ Medium.otf") format("opentype");
+}
+
+html{
+    width: 100%;
+    margin: auto;
+}
+
+body{
+    background: linear-gradient(rgba(36,36,38,0.8), rgba(36,36,38,0.8)),
+                url("10_27_16-EFactory-084-1024x683.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: Garde, Verdana, sans-serif;
+    color: rgb(124, 136, 142);
+}
+
+/*Intro section*/
+section#Intro{
+    display: block;
+    text-align: center;
+}
+
+section#Intro h1{
+    margin-top: 2em;
+    font-size: 70px;
+}
+
+section#Intro p{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+section#Intro img{
+    max-width: 500px;
+}
+
+section#Intro button{
+    font-family: Garde, Verdana, sans-serif;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: 2px solid rgb(124, 136, 142);
+    border-radius: 8px;
+    text-decoration: none;
+    background:transparent;
+    color: rgb(124, 136, 142);
+    font-size: 25px;
+    transition: border 0.2s, color 0.2s;
+    
+}
+
+section#Intro button:hover{
+    border: 2px solid black;
+    color: black;
+    
+}
+
+/*eFactory intro section*/
+
+
+div#boxes{
+    margin-top: 10em;
+    display: none;
+}
+
+div#boxes header{
+    text-align: center;
+    color: rgb(124, 136, 142);
+    margin-bottom: 5em;
+}
+
+div#boxes button {    
+    width: 30%;
+    height: 200px;
+    float: left;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 2em;    
+}
+
+div#boxes button h2{    
+    color: white;
+}
+
+.b1{
+    background: linear-gradient(rgba(36,36,38,0.5), rgba(36,36,38,0.5)),
+                url("10_27_16-EFactory-029-1024x683.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+.b2{
+    background: linear-gradient(rgba(36,36,38,0.5), rgba(36,36,38,0.5)),
+                url("10_27_16-EFactory-029-1024x683.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.b3{
+    background: linear-gradient(rgba(36,36,38,0.5), rgba(36,36,38,0.5)),
+                url("10_27_16-EFactory-029-1024x683.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*About section*/
+
+/*Companies Section*/
